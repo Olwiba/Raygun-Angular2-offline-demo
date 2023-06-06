@@ -2,7 +2,7 @@ import rg4js from 'raygun4js';
 import { ErrorHandler } from '@angular/core';
 
 const VERSION_NUMBER = '1.0.0.0';
-rg4js('apiKey', 'WDdUJcmFR3k8Ur04I2S1QQ');
+rg4js('apiKey', 'ENTER_API_KEY_HERE');
 rg4js('setVersion', VERSION_NUMBER);
 rg4js('enableCrashReporting', true);
 rg4js('enablePulse', true);
